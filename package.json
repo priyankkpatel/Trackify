@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "email": "email dev",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate",
+    "deploy": "gh-pages -d build"
   }
   "dependencies": {
     "@arcjet/next": "^1.0.0-alpha.34",
