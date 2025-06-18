@@ -1,6 +1,6 @@
 {
   "name": "finance-platform",
-  "version": "0.1.0"
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "prisma generate && next dev",
@@ -11,7 +11,7 @@
     "email": "email dev",
     "postinstall": "prisma generate",
     "deploy": "gh-pages -d build"
-  }
+  },
   "dependencies": {
     "@arcjet/next": "^1.0.0-alpha.34",
     "@clerk/nextjs": "^6.6.0",
